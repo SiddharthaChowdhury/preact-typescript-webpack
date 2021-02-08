@@ -23,6 +23,7 @@ const App: FunctionComponent<IAppProps> = ({msg}) => {
     <Fragment>
       <h2>{msg}</h2>
       <span>Counter value: {value}</span>
+      &nbsp; <button onClick={increment}>Increment</button>
     </Fragment>
   )
 }
